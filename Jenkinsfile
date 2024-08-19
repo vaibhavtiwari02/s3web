@@ -10,7 +10,7 @@ pipeline{
     }
     stage('deploy'){
       steps {
-        sh "aws s3 cp index.html s3://vaibhav1jenkins"
+        sh "aws s3 cp index.html s3://vaibhav1jenkins/"
       }
     }
   }
