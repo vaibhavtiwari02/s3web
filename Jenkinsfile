@@ -2,7 +2,7 @@ pipeline{
   agent any
   stages {
     stage('build with version'){
-      step{
+      steps {
         sh "java --version"
         sh "ls"
       }
